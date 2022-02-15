@@ -1,0 +1,67 @@
+body {
+  font-family: sans-serif;
+}
+
+input {
+  border-radius: 16px;
+  border: none;
+  padding: 6px, 16px;
+  outline: none;
+}
+
+button {
+  border-radius: 16px;
+  border: none;
+  padding: 4px, 16px;
+}
+
+.list-row {
+  display: flex;
+  align-items: center;
+}
+
+li {
+  margin: 0px;
+}
+
+p {
+  padding-bottom: 0px;
+}
+
+button:hover {
+  background-color: pink;
+  color: white;
+  cursor: pointer;
+}
+
+.title {
+  text-align: center;
+  margin-top: 0;
+  font-weight: bold;
+  color: #666;
+}
+
+.input-area {
+  background-color: rgb(133, 231, 215);
+  width: 400px;
+  height: 30px;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 8px;
+}
+.uncomp-area {
+  background-color: lightblue;
+  width: 400px;
+  min-height: 200px;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 8px;
+}
+.comp-area {
+  background-color: gray;
+  width: 400px;
+  min-height: 200px;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 8px;
+}
